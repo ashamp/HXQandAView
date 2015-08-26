@@ -15,6 +15,7 @@
 		FA69921F1B8D9AF400A5702B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA69921E1B8D9AF400A5702B /* Images.xcassets */; };
 		FA6992221B8D9AF400A5702B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA6992201B8D9AF400A5702B /* LaunchScreen.xib */; };
 		FA69922E1B8D9AF400A5702B /* HXQandAViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA69922D1B8D9AF400A5702B /* HXQandAViewTests.m */; };
+		FA69923A1B8D9BDF00A5702B /* HXQandAView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA6992391B8D9BDF00A5702B /* HXQandAView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		FA6992271B8D9AF400A5702B /* HXQandAViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXQandAViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA69922C1B8D9AF400A5702B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA69922D1B8D9AF400A5702B /* HXQandAViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXQandAViewTests.m; sourceTree = "<group>"; };
+		FA6992381B8D9BDF00A5702B /* HXQandAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HXQandAView.h; path = HXQandAView/HXQandAView.h; sourceTree = "<group>"; };
+		FA6992391B8D9BDF00A5702B /* HXQandAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HXQandAView.m; path = HXQandAView/HXQandAView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 		FA6992101B8D9AF400A5702B /* HXQandAView */ = {
 			isa = PBXGroup;
 			children = (
+				FA6992371B8D9BB600A5702B /* HXQandAView */,
 				FA6992151B8D9AF400A5702B /* AppDelegate.h */,
 				FA6992161B8D9AF400A5702B /* AppDelegate.m */,
 				FA6992181B8D9AF400A5702B /* ViewController.h */,
@@ -141,6 +145,15 @@
 				FA69922C1B8D9AF400A5702B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA6992371B8D9BB600A5702B /* HXQandAView */ = {
+			isa = PBXGroup;
+			children = (
+				FA6992381B8D9BDF00A5702B /* HXQandAView.h */,
+				FA6992391B8D9BDF00A5702B /* HXQandAView.m */,
+			);
+			name = HXQandAView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA69923A1B8D9BDF00A5702B /* HXQandAView.m in Sources */,
 				FA69921A1B8D9AF400A5702B /* ViewController.m in Sources */,
 				FA6992171B8D9AF400A5702B /* AppDelegate.m in Sources */,
 				FA6992141B8D9AF400A5702B /* main.m in Sources */,
