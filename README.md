@@ -7,8 +7,8 @@
 
 # How to use
 
-1.create dataSource
-2.create instance
-3.make constraints
+    create dataSource
+    create instance
+    make constraints
 
 details see sample
